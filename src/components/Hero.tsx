@@ -117,8 +117,8 @@ export default function Hero() {
           </div>
 
           <div className="mt-8 flex items-center gap-3">
-            <SocialLink href={socials.github} label="GitHub" Icon={Github} />
-            <SocialLink href={socials.linkedin} label="LinkedIn" Icon={Linkedin} />
+            <SocialLink href={'https://github.com/sonikakumari01'} label="GitHub" Icon={Github} />
+            <SocialLink href={'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEuJcqPUtQTDwAAAaB4HyhY03i6_5fpdnNstU4aWGPb7vH7AGtrEiGFMfBFKg_0T7Qz5JKp4iYBvc3wbL8cTH3jcTss4wSfx82kcm7c25zPZU8w9mtGIQR9_mUhZ8ZeUgrqXeE=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsonika-kumari-329b223b1%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app'} label="LinkedIn" Icon={Linkedin} />
             <SocialLink href={socials.email} label="Email" Icon={Mail} />
           </div>
         </motion.div>
