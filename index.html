@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Sonika Kumari | Aspiring Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Sonika Kumari, an aspiring software developer from Simdega, Jharkhand, focused on web development with React, JavaScript, Java and Python."
+    />
+    <meta name="author" content="Sonika Kumari" />
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sonika Kumari | Aspiring Software Developer" />
+    <meta
+      property="og:description"
+      content="Aspiring software developer building modern web experiences with code, creativity, and continuous learning."
+    />
+    <meta property="og:image" content="/images/sonika-profile.jpg" />
+    <meta property="og:url" content="https://example.com/" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sonika Kumari | Aspiring Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Aspiring software developer building modern web experiences with code, creativity, and continuous learning."
+    />
+    <meta name="twitter:image" content="/images/sonika-profile.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Prevent a flash of the wrong theme before React hydrates.
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = stored ? stored === 'dark' : systemDark;
+          if (isDark) document.documentElement.classList.add('dark');
+        } catch (e) {
+          /* localStorage unavailable — default to light */
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sonika Kumari",
+        "jobTitle": "Aspiring Software Developer",
+        "email": "sonikakumari9793@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Simdega",
+          "addressRegion": "Jharkhand",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
